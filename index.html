@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<!--CSS-->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/icon.css">
+
+<!--JS-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+
+</head>
+<body bgcolor="#f5f5f5">
+	
+
+	<div class="card z-depth-5">
+  		<div class="card-content grey lighten-1">
+    			<div class="container">
+      			<div class="col s12 m7">
+          			<div class="card-image">
+            				<img src="img/LS.png">            
+          			</div>
+          			<center class="judul">
+  						    <h5>Kotak Saran berbasis IT SMKN 13 Bandung</h5>
+                </center>
+      			</div>
+          </div>
+  		</div>
+      <div class="container">
+  		<div class="card-tabs">
+    			<ul class="tabs tabs-fixed-width">
+      			<li class="tab"><a class="active" href="#test4">Formulir</a></li>
+            <li class="tab"><a href="#test2">About</a></li>
+    			</ul>
+  		</div>
+
+<div id="test4">
+ 
+  <div class="card-content #f5f5f5 grey lighten-4">
+
+<!--HALAMAN PERTAMA-->
+	<div class="card-content black-text z-depth-0 ">
+
+<!--FORMULIR ISI-->
+      <hr>
+      <h3 align="center">FORMULIR</h3>
+      <hr>
+        <form class="col s6">
+				  <div class="container">
+  				
+    					<div class="row">
+<br>
+                <span class="card-title">Tanggal & Identitas</span>
+      						<div class="input-field col s6">
+          						<i class="material-icons prefix">today</i>
+          						<input type="date" class="datepicker">
+        					</div>
+
+                  <div class="input-field col s6">
+                      <i class="material-icons prefix">person_pin</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label for="icon_telephone">NIS</label>
+                  </div>
+
+        					<div class="input-field col s6">
+          						<i class="material-icons prefix">account_circle</i>
+          						<input id="icon_prefix" type="text" class="validate">
+          						<label for="icon_prefix">Nama Lengkap</label>
+        					</div>
+
+        					<div class="input-field col s6">
+          						<i class="material-icons prefix">my_location</i>
+          						<input id="icon_telephone" type="tel" class="validate">
+          						<label for="icon_telephone">Kelas</label>
+        					</div>
+<br>
+        				  <span class="card-title">Saran</span>
+        					<div class="input-field col s12">
+        						<i class="material-icons prefix">mode_edit</i>
+          						<textarea id="textarea1" class="materialize-textarea"></textarea>
+          						<label for="textarea1">Masukkan Saran</label>
+        					</div>
+<br>
+        				  <span class="card-title">Kritik</span>
+        					<div class="input-field col s12">
+        						<i class="material-icons prefix">mode_edit</i>
+          						<textarea id="textarea1" class="materialize-textarea"></textarea>
+          						<label for="textarea1">Masukkan Kritik</label>
+        					</div>
+<br>
+        					<span class="card-title">Keluhan</span>
+        					<div class="input-field col s12">
+        						<i class="material-icons prefix">mode_edit</i>
+          						<textarea id="textarea1" class="materialize-textarea"></textarea>
+          						<label for="textarea1">Masukkan Keluhan</label>
+        					</div>
+
+                  <button class="btn #424242 grey darken-3" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button> 
+
+    					</div><!--end row-->
+          </div><!--end container-->
+<br>
+                                 
+          </form>
+        
+<!--END FORMULIR-->
+		</div>
+    </div>
+<!--END NAV PERTAMA-->
+</div>
+
+
+<div id="test2">
+ 
+  <div class="card-content #f5f5f5 grey lighten-4">
+
+<!--HALAMAN KEDUA-->
+  <div class="card-content black-text z-depth-0 ">
+
+<!--FORMULIR ISI-->
+
+        
+
+  <span class="card-title">About Makers : </span>
+    <h6>Design :</h6>
+    <div class="chip">
+      <img src="img/fr.png" alt="Contact Person">
+      Fajar Ramdani Arifin
+    </div>
+
+    <div class="chip">
+      <img src="img/riki.jpg" alt="Contact Person">
+      Riki Pandika
+    </div>
+
+    <div class="chip">
+      <img src="img/gelar.jpg" alt="Contact Person">
+      Gelar Amar Ibrahim
+    </div>
+
+    <div class="chip">
+      <img src="img/bayu.jpg" alt="Contact Person">
+      Bayuning Arjunanto
+    </div>
+
+    <div class="chip">
+      <img src="img/fadil.jpg" alt="Contact Person">
+      Muhammad Fadhil Suyarto
+    </div>
+
+    <h6>Pengembang :</h6>
+    <div class="chip">
+      <img src="img/krishna.jpg" alt="Contact Person">
+      Krishna Al Rasyid
+    </div>
+
+    <div class="chip">
+      <img src="img/rizky.jpg" alt="Contact Person">
+      Rizky Febrian
+    </div>
+
+<!--END FORMULIR-->
+  </div>
+  </div>
+<!--END NAV KEDUA-->
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--INTERNAL JAVASCRIPT-->
+<script type="text/javascript">
+	$('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+</script>
+</body>
+</html>
